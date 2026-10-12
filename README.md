@@ -1,54 +1,47 @@
 # Dental Website
 
-> A dental practice website project designed to present services and help visitors find information.
+> A dental practice website project for presenting services and useful patient-facing information.
 
-## Overview
+## About
 
-This repository contains the Dental Website project. It is part of my ongoing work building practical, user-friendly web experiences with an emphasis on clear layouts, responsive design, and maintainable code.
+This repository is part of the DevNado project portfolio. It contains the Dental Website codebase and supporting files. The aim is to make the project's purpose clear and provide a practical starting point for development.
 
-## Goals
+## Project principles
 
-- Provide a clear and intuitive user experience.
-- Keep the interface responsive across desktop and mobile screens.
-- Organize the codebase so it is easier to understand and extend.
-- Improve the project iteratively as requirements evolve.
+- Keep the experience clear, useful, and easy to navigate.
+- Build with maintainability and responsive behavior in mind where applicable.
+- Keep configuration and sensitive values secure.
+- Improve the project iteratively as needs evolve.
 
-## Getting started
+## Local setup
 
-### Prerequisites
+### Requirements
 
-- Node.js (LTS recommended)
-- npm
 - Git
+- Node.js LTS and npm, if applicable to this repository
+- Any project-specific services, environment variables, or database configuration
 
-### Installation
+### Install dependencies
 
 ```bash
 git clone https://github.com/o41-commit/Dentist.git
 cd Dentist
 npm install
-npm run dev
 ```
 
-If the development command differs, check `package.json` for the scripts configured for this repository.
+Use the scripts in `package.json` or the project's existing documentation to start the app or service. Backend projects may need environment variables and a database connection configured before they can run.
 
-## Project structure
+## Security
 
-The source folders and configuration files are organized according to the framework and tooling used by this project. Start with `package.json` and the main source directory to understand the app entry point and available commands.
+Do not commit secrets, API keys, access tokens, private credentials, or production environment files. Configure local environment values securely and validate changes before deployment.
 
-## Development notes
+## Maintainer
 
-- Keep changes focused and readable.
-- Test responsive behavior when updating the UI.
-- Keep secrets and environment-specific credentials out of version control.
-
-## Author
-
-Built and maintained by **DevNado**.
+**DevNado**
 
 - GitHub: https://github.com/o41-commit
 - Portfolio: https://dev-nado.vercel.app/
 
 ---
 
-<p align="center">Built with care by <strong>DevNado</strong> ✦</p>
+<p align="center"><strong>Build thoughtfully. Ship responsibly.</strong> ✦</p>
